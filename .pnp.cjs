@@ -31,7 +31,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express", "npm:4.17.17"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.45"],\
             ["express", "npm:4.18.2"],\
-            ["tsc", "npm:2.0.4"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -1578,7 +1577,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express", "npm:4.17.17"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.45"],\
             ["express", "npm:4.18.2"],\
-            ["tsc", "npm:2.0.4"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
@@ -1829,15 +1827,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/treeify-npm-1.1.0-abf9292333-aa00dded22.zip/node_modules/treeify/",\
           "packageDependencies": [\
             ["treeify", "npm:1.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["tsc", [\
-        ["npm:2.0.4", {\
-          "packageLocation": "./.yarn/cache/tsc-npm-2.0.4-e331b066cb-50b1024088.zip/node_modules/tsc/",\
-          "packageDependencies": [\
-            ["tsc", "npm:2.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
