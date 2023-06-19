@@ -1,9 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var express_1 = require("express");
-var app = (0, express_1)();
-app.use(express_1.static("/srv"));
-app.get("/*", function (req, res) {
+import express from "express";
+const app = express();
+app.use(express.static("/srv"));
+app.get("/*", (req, res) => {
     res.sendFile("/srv/index.html");
 });
-app.listen(3000, function () { return console.log("serving ..."); });
+app.listen(3000, () => console.log("serving ..."));
