@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/express", "npm:4.17.17"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.45"],\
+            ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
@@ -758,6 +759,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["dir-glob", "npm:3.0.1"],\
             ["path-type", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["dotenv", [\
+        ["npm:16.3.1", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.3.1-e6d380a398-15d75e7279.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1576,6 +1586,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-server", "workspace:."],\
             ["@types/express", "npm:4.17.17"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.45"],\
+            ["dotenv", "npm:16.3.1"],\
             ["express", "npm:4.18.2"],\
             ["typescript", "patch:typescript@npm%3A5.1.3#~builtin<compat/typescript>::version=5.1.3&hash=5da071"]\
           ],\
